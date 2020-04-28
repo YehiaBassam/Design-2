@@ -1,0 +1,401 @@
+.navbar-nav li
+{
+    padding-left: 20px;
+}
+
+.nav-link
+{
+    color: #ccc !important;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: 'Poppins',
+    Helvetica,
+    Arial,
+    sans-serif;
+    transition: all .3s;
+}
+
+.nav-link:hover
+{
+    color: white !important;
+}
+
+
+.home
+{
+     color:white !important;
+}
+
+.brand-dark
+{
+    opacity: 0;
+}
+
+@media (max-width:992px)
+{
+    .navbar
+    {
+        background-color: white !important;
+    }
+    
+    .brand-dark
+    {
+        opacity: 1;
+        position: relative;
+        right: 120px;
+    }
+    
+    .navbar-nav a
+    {
+      color: black !important;
+        position: relative;
+        right: 40px;
+    }
+    
+    .navbar-nav a:hover
+    {
+      color: black !important;
+    }
+}
+
+.y-main-head
+{
+    height: 100vh;
+    background-image: url(imgs/banner.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.y-main-head h1
+{
+    font-size: 47px;
+    line-height: 70px;
+    font-weight: 900;
+    letter-spacing: 0.15em;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.y-main-head button
+{
+    font-weight: 600;
+    color: black;
+    font-size: 12px;
+    padding: 20px 40px;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    transition: all .3s;
+}
+
+
+.y-main-head button:hover
+{
+    border-color: white;
+    background-color: transparent;
+    color: white;
+}
+
+.y-cv
+{
+    padding: 100px 0;
+}
+
+.y-cv button
+{
+    border: 2px solid black;
+    background-color: white;
+    font-weight: 600;
+    color: black;
+    font-size: 12px;
+    padding: 20px 40px;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    transition: all .3s;
+}
+
+
+.y-cv button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+.y-cv h4
+{
+    
+    font-weight: 500;
+    font-size: 14px;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+}
+
+
+
+.y-cv span
+{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.025em;
+}
+
+.y-cv .cv2
+{
+    padding: 80px 0;
+}
+
+.y-port
+{
+    height: 900px;
+    background-color: #FBFBFB;
+}
+
+.nav-pills a
+{
+    color: black !important;
+}
+
+
+.nav-pills .active
+{
+    color: white !important;
+    background-color: black !important;
+}
+
+.nav-pills a:hover
+{
+    color: white!important;
+    background-color: black!important;
+}
+
+.port-item
+{
+    position: relative;
+}
+
+.port-layer
+{
+    width: 96%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.9);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transition: all .5s;
+    opacity: 0;
+}
+
+.port-layer:hover
+{
+    opacity: 1;
+}
+
+.port-layer p
+{
+    font-size: 25px;
+}
+
+
+.y-cover-img
+
+{
+    margin-top: 300px;
+    height: 200px;
+    background-image: url(imgs/facts_bg.jpg);
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+
+@media (max-width:767px)
+{
+    .y-cover-img
+    {
+        margin-top: 2900px;
+        height: 400px;
+    }
+}
+
+.y-Services
+{
+    height: 700px;
+}
+
+.y-ser-caption
+{
+    padding: 120px 0;
+}
+
+
+.y-Services i
+{
+  font-size: 40px;  
+}
+
+
+.y-comment
+{
+    height: 550px;
+    margin-top: 300px;
+    background-image: url(imgs/testimonials_bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+
+@media (max-width:767px)
+{
+    .y-comment
+    {
+        margin-top: 1300px;
+        height: 400px;
+    }
+}
+
+
+.carousel-item img
+{
+    width: 8%;
+    padding: 180px 0;
+}
+
+.carousel-caption h4
+{
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 21px;
+    letter-spacing: 0.025em;
+        color: #ccc;
+}
+
+
+.y-black-cover 
+{
+    height: 250px;
+    background-color:  #191919;
+    
+}
+
+
+.y-news
+{
+    height: 900px;
+    background-color: #FBFBFB;;
+}
+
+.y-news-item a
+{
+    color: black !important;
+    text-decoration: none;
+    color: #4c4c4c;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0.025em;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+}
+
+.y-news-item p
+{
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+}
+
+.y-news-item
+{
+    
+    background-color: white;
+    overflow: hidden;
+}
+
+.y-news-item img
+{
+    transition: all .5s;
+}
+
+.y-news-item img:hover
+{
+    transform: scale(1.05);
+}
+
+.y-news button
+{
+    border: 2px solid black;
+    background-color: black;
+    font-weight: 600;
+    color: white ;
+    font-size: 12px;
+    padding: 20px 40px;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    transition: all .3s;
+}
+
+
+.y-news button:hover
+{
+    background-color: white;
+    color: black;
+}
+
+
+.y-touch
+{
+    height: 700px;
+}
+
+.y-touch img
+{
+    height: 500px;
+    padding: 20px 0;
+}
+
+
+.y-touch button
+{
+    border: 2px solid black;
+    background-color: white;
+    font-weight: 600;
+    color: black;
+    font-size: 12px;
+    padding: 20px 40px;
+    font-family: 'Poppins', Helvetica, Arial, sans-serif;
+    transition: all .3s;
+}
+
+
+.y-touch button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+footer
+{
+    color: #7f7f7f;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    margin-top: 300px;
+    height: 300px;
+    background-color: #191919;
+}
+
+.fot-caption
+{
+    margin-top: 80px;
+}
+
+
+.layer-ss
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+}
+
+.gg
+{
+    position: relative;
+}
+
+
+
